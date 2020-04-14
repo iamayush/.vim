@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/asinha/my-devel/FMK'
+let g:netrw_dirhist_2='/home/asinha/my-devel/FMK/.git'
+let g:netrw_dirhist_3='/home/asinha/my-devel/FMK/.git/info'
+let g:netrw_dirhist_4='/home/asinha/my-devel/FMK'
