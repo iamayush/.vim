@@ -34,5 +34,9 @@ let g:ctrlp_by_filename = 1
 autocmd BufReadPost fugitive://* set bufhidden=delete
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
+" commentary
+autocmd FileType cpp set commentstring=//\ %s
+autocmd FileType sh set commentstring=#\ %s
+
 " keep viminfo inside .vim/
 set viminfo+=n~/.vim/viminfo

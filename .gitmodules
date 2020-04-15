@@ -4,3 +4,9 @@
 [submodule "pack/vendor/start/ctrlp.vim"]
 	path = pack/vendor/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/vendor/start/vim-unimpaired"]
+	path = pack/vendor/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "pack/vendor/start/vim-commentary"]
+	path = pack/vendor/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
