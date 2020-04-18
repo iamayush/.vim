@@ -1,5 +1,6 @@
 set nocompatible
 syntax on
+colorscheme eldar
 
 " show status line always
 set laststatus=2
