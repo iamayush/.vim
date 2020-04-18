@@ -10,6 +10,16 @@ set hidden
 " indentation preferences
 set tabstop=2 shiftwidth=2 expandtab
 set autoindent
+set smartindent
+
+" bracket completion
+inoremap ( ()<Esc>:let leavechar=")"<CR>i
+inoremap [ []<Esc>:let leavechar="]"<CR>i
+inoremap < <><Esc>:let leavechar=">"<CR>i
+inoremap " ""<Esc>:let leavechar="""<CR>i
+inoremap ' ''<Esc>:let leavechar="'"<CR>i
+inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+inoremap { {<CR><BS><BS>}<Esc>ko
 
 " line numbers
 set number
