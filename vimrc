@@ -2,6 +2,10 @@ set nocompatible
 syntax on
 colorscheme eldar
 
+" cursorline highlighting - H
+hi CursorLine cterm=bold ctermbg=darkgray ctermfg=NONE
+nnoremap H :set cursorline! <CR>
+
 " show status line always
 set laststatus=2
 
@@ -18,7 +22,6 @@ inoremap ( ()<Esc>:let leavechar=")"<CR>i
 inoremap [ []<Esc>:let leavechar="]"<CR>i
 inoremap < <><Esc>:let leavechar=">"<CR>i
 inoremap " ""<Esc>:let leavechar="""<CR>i
-inoremap ' ''<Esc>:let leavechar="'"<CR>i
 inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
 inoremap { {<CR><BS><BS>}<Esc>ko
 
